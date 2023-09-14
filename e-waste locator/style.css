@@ -2,13 +2,15 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    height: 100vh;
 }
 
 body {
     margin: 0px;
     padding: 0px;
-    font-family: Arial, sans-serif;
     background-color: #f2f2f2;
+    overflow-y: hidden;
+    font-family: serif;
 }
 
 
@@ -49,7 +51,8 @@ button {
 .heading {
     text-align: center;
     color: #699576;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
+
     font-size: 42px;
     font-style: normal;
     font-weight: 400;
@@ -61,15 +64,9 @@ button {
     margin-left: 34px;
 }
 
-.dividor {
-    /* height: 680px; */
-}
 
 .item1 {
     margin-left: 100px;
-}
-.item2 {
-    /* min-height: 100%; */
 }
 
 .logbtn {
@@ -96,7 +93,7 @@ button {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    letter-spacing: 0.62px;
+    letter-spacing: 0.2px;
     width: 327px;
     height: 52px;
     flex-shrink: 0;
