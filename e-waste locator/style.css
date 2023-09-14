@@ -1,8 +1,9 @@
-.container{
+.container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
+
 body {
     margin: 0px;
     padding: 0px;
@@ -15,6 +16,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .horizontal-line {
     display: flex;
     align-items: center;
@@ -43,53 +45,60 @@ button {
     border-radius: 3px;
     cursor: pointer;
 }
-.heading{
+
+.heading {
+    text-align: center;
     color: #699576;
-font-family: Poppins;
-font-size: 42px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 0.84px;
-width: 478px;
-height: 62px;
-flex-shrink: 0;
-margin-left: 34px;
+    font-family: Poppins;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.84px;
+    width: 478px;
+    height: 62px;
+    flex-shrink: 0;
+    margin-left: 34px;
 }
 
-.dividor{
-    height: 680px;
+.dividor {
+    /* height: 680px; */
 }
-.item1{
-        margin-right: 20px;
+
+.item1 {
+    margin-left: 100px;
 }
-.logbtn{
+.item2 {
+    /* min-height: 100%; */
+}
+
+.logbtn {
     border-radius: 22px;
     padding: 2px;
     width: 170px;
     margin-left: 173px;
     margin-top: -2px;
     height: 62px;
-    color: #699576; 
-    background-color: #BEDD9A;
-font-family: Inter;
-font-size: 34px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-}
-.forgot-password{
-    text-decoration: none;
     color: #699576;
-font-family: Poppins;
-font-size: 25px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 0.62px;
-width: 327px;
-height: 52px;
-flex-shrink: 0;
-margin-left: 168px;
+    background-color: #BEDD9A;
+    font-family: Inter;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
+.forgot-password {
+    text-decoration: none;
+    color: #699576;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.62px;
+    width: 327px;
+    height: 52px;
+    flex-shrink: 0;
+    margin-left: 168px;
+}
