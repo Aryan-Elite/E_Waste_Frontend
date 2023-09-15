@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: space-around;
     height: 100vh;
+
 }
 
 body {
@@ -52,7 +53,7 @@ button {
     text-align: center;
     color: #699576;
     font-family: 'Poppins', sans-serif;
-
+     width: auto;
     font-size: 42px;
     font-style: normal;
     font-weight: 400;
@@ -67,10 +68,13 @@ button {
 
 .item1 {
     margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .logbtn {
-    border-radius: 22px;
+    border-radius: 63px;
     padding: 2px;
     width: 170px;
     margin-left: 173px;
@@ -78,8 +82,8 @@ button {
     height: 62px;
     color: #699576;
     background-color: #BEDD9A;
-    font-family: Inter;
-    font-size: 34px;
+    /* font-family: Inter; */
+    font-size: 28px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -99,3 +103,94 @@ button {
     flex-shrink: 0;
     margin-left: 168px;
 }
+.item2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   height: 100vh;
+    width: 100vh;
+    background-image: url('dividor.png'); /* Replace 'your-image.jpg' with your image file path */
+    background-size: cover; /* Cover the entire box with the background image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-position: center center; /* Center the background image */
+}
+.sign-up{
+    /* text-align: center; */
+    height: 62px;
+    margin-left: 10px;
+}
+.create-account{
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.84px;
+}
+.signbtn{
+    margin-left: 35.4%;
+    border-radius: 48.09px;
+    padding: 2px;
+    width: 170px;
+    height: 43px;
+    color:  #BEDD9A;
+    background: #699576;
+    /* font-family: Inter; */
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.btn{
+    /* display: flex; */
+    /* flex-direction: column;
+    align-items: center;
+    justify-content: space-between; */
+}
+.or-line {
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .or-line:before,
+  .or-line:after {
+    background-color:rgba(25, 43, 51, 0.20);;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 35%;
+  }
+  
+  .or-line:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  
+  .or-line:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+  .or-line h4 {
+    display: inline-block;
+    padding: 0 10px; /* Add padding to space out the text */
+    margin: 0;
+}
+ .or-line{
+    margin-top: 5%;
+ }
+  .no-account{
+    color: #699576;
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.62px;
+text-align: center;
+  }
+
