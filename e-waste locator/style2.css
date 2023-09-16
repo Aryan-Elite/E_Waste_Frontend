@@ -1,0 +1,102 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    overflow-y: hidden;
+    font-family: serif;
+  }
+  
+  #signup-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20%;
+    margin-left:-35%;
+  }
+  
+  .horizontal-line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 0px;
+    margin: 26px;
+    width: 140%;
+}
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="password"] {
+    font-size: 25px;
+    height: 30px;
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 0;
+    background-color: transparent;
+  }
+  .heading {
+    text-align: center;
+    color: #699576;
+    font-family: "Poppins", sans-serif;
+    width: auto;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.84px;
+    width: 478px;
+    height: 62px;
+    flex-shrink: 0;
+    margin-left: 34px;
+    margin-top: 25%;
+  }
+  
+  .item1 {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -10rem;
+    align-items: center;
+    width: 50%;
+  }
+  
+.item2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 131vh;
+    background-image: url("dividor.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+button{
+  width: 276px;
+  height: 51px;
+  flex-shrink: 0;
+  border-radius: 47px;
+  background: #699576;
+  color: white;
+  font-size: 25px;
+  border: 0px solid  #699576;
+  letter-spacing: 0.5;
+}
+.submit-btn{
+  margin-top: -8rem;
+}
+.not-user{
+  color: #699576;
+  font-size: 1.4rem;
+  font-family: "Poppins", sans-serif;
+}
