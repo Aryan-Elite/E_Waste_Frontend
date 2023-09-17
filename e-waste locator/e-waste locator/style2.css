@@ -4,15 +4,6 @@
     justify-content: space-around;
     height: 100vh;
   }
-  
-  body {
-    margin: 0;
-    padding: 0;
-    background-color: #f2f2f2;
-    overflow-y: hidden;
-    font-family: serif;
-  }
-  
   #signup-form {
     display: flex;
     flex-direction: column;
@@ -30,10 +21,7 @@
     width: 140%;
 }
   
-  input[type="text"],
-  input[type="email"],
-  input[type="tel"],
-  input[type="password"] {
+.inp{
     font-size: 25px;
     height: 30px;
     flex: 1;
@@ -73,15 +61,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 102vh;
     width: 131vh;
     background-image: url("dividor.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    margin-right: -1vh;
   }
 
-button{
+.sub-btn{
   width: 276px;
   height: 51px;
   flex-shrink: 0;
