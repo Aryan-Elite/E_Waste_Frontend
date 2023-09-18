@@ -26,6 +26,7 @@ body{
     text-align: center;
     color: #F5F5F5;
     font-family: Arial, Helvetica, serif;
+    margin-top: -2rem;
 }
 .box1{
        /* border: 40px solid red; */
@@ -55,4 +56,48 @@ body{
 .item1 h1{
     font-size: 6vh;
     line-height: 329%;
+}
+
+.form .fa-search{
+
+    position: absolute;
+    top:20px;
+    left: 20px;
+    color: #9ca3af;
+
+}
+
+.form span{
+
+        position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db;
+
+}
+
+.left-pan{
+    padding-left: 7px;
+}
+
+.left-pan i{
+   
+   padding-left: 10px;
+}
+
+.form-input{
+
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 10px;
+}
+
+.form-input:focus{
+
+    box-shadow: none;
+    border:none;
+}
+.item2{
+    margin-right: 0;
 }
