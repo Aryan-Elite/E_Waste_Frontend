@@ -1,20 +1,13 @@
+
 .container {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 100vh;
-
+    height: 98vh;
+    margin-right: -3vh;
+    max-width: 100%;
+    max-height: 100%;
 }
-
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #f2f2f2;
-    overflow-y: hidden;
-    font-family: serif;
-}
-
-
 #login-form {
     display: flex;
     flex-direction: column;
@@ -29,8 +22,7 @@ body {
     margin: 26px;
 }
 
-input[type="email"],
-input[type="password"] {
+.user-inp {
     font-size: 25px;
     height: 30px;
     flex: 1;
@@ -40,14 +32,7 @@ input[type="password"] {
     background-color: transparent;
 }
 
-button {
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 3px;
-    cursor: pointer;
-}
+
 
 .heading {
     text-align: center;
@@ -74,6 +59,7 @@ button {
 }
 
 .logbtn {
+    border-style: solid;
     border-radius: 63px;
     padding: 2px;
     width: 170px;
@@ -81,6 +67,7 @@ button {
     margin-top: -2px;
     height: 62px;
     color: #699576;
+    border-color: #BEDD9A;
     background-color: #BEDD9A;
     /* font-family: Inter; */
     font-size: 28px;
@@ -104,10 +91,7 @@ button {
     margin-left: 168px;
 }
 .item2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    box-sizing: border-box;
    height: 100vh;
     width: 131vh;
     background-image: url('dividor.png'); /* Replace 'your-image.jpg' with your image file path */
@@ -131,6 +115,7 @@ button {
     letter-spacing: 0.84px;
 }
 .signbtn{
+    border-style: solid;
     margin-top: -15%;
     margin-left: 35.4%;
     border-radius: 48.09px;
@@ -139,6 +124,7 @@ button {
     height: 43px;
     color:  #BEDD9A;
     background: #699576;
+    border-color: #699576;
     /* font-family: Inter; */
     font-size: 25px;
     font-style: normal;
@@ -198,6 +184,3 @@ text-align: center;
 width: 70%;
     margin-left: 17%;
   }
- 
-
-
